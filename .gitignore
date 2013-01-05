@@ -1,2 +1,4 @@
 *.swp
 dev/
+Temp/
+CompilationComplete*
