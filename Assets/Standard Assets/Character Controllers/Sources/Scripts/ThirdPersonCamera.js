@@ -128,7 +128,7 @@ function Apply (dummyTarget : Transform, dummyCenter : Vector3)
 	{
 		// We'd be moving the camera upwards, do that only if it's really high
 		var newTargetHeight = targetCenter.y + height;
-		if (newTargetHeight < targetHeight || newTargetHeight - targetHeight > 5)
+		//if (newTargetHeight < targetHeight || newTargetHeight - targetHeight > 5)
 			targetHeight = targetCenter.y + height;
 	}
 	// When walking always update the target height
